@@ -19,12 +19,12 @@ export default function Home() {
       <ExperienceSection
         id="wine-bar"
         tag="Wine Bar"
-        tagSub="Seg–Sex · 18h–22h"
-        heading="O seu ritual de fim de tarde merece uma taça à altura."
-        body="Esqueça o happy hour comum. Na BRAVINO, você escolhe o rótulo diretamente da prateleira, e ele chega à sua taça na temperatura exata, com atendimento de quem realmente entende do assunto. Ambiente climatizado, petiscos selecionados e uma conversa que vale o horário."
-        tags={['Vinhos em taça', 'Temperatura ideal', 'Petiscos', 'Seg–Sex 18h–22h', 'Climatizado']}
+        tagSub="SEG - SEX: 18:30 - 21:30"
+        heading="O seu final de tarde pede Bravino"
+        body="Aqui na BRAVINO, você escolhe o seu rótulo ideal, e nós harmonizamos a sua experiência com pratos selecionados, ambiente climatizado e atendimento especializado."
+        tags={['Ar-livre', 'Vinhos', 'Harmonização', 'Entardecer']}
         ctaText="Quero ir esta semana"
-        ctaHref="https://wa.me/5543991231069"
+        ctaHref="https://wa.me/554391347721"
         glyphLetter="W"
         flipLayout={false}
         bgImage="https://pub-db8ed4fb33634589a6ce5fb07e85cb46.r2.dev/landing_pages/bravino/confra_eventos_bravino.png"
@@ -34,18 +34,34 @@ export default function Home() {
       <ExperienceSection
         id="vinho-no-deck"
         tag="Vinho no Deck"
-        tagSub="Todo sábado"
-        heading="O sábado mais gostoso de Londrina começa aqui."
-        body="Ao ar livre, com boa música e a taça certa na mão, o Vinho no Deck é o evento que virou tradição entre quem ama vinho em Londrina. A vibe é descontraída, o público é animado e o cardápio é dominado por brancos vibrantes e rosés refrescantes."
-        tags={['Ao ar livre', 'Brancos & rosés', 'Música ao vivo', 'Todo sábado']}
+        tagSub="SÁBADO: 10:30 às 12:30H"
+        heading="O seu sábado começa muito melhor aqui."
+        body="Degustações ao ar livre com um sommelier qualificado, vinhos selecionados com preços especiais e um bom bate papo."
+        tags={['Degustação', 'Vinhos', 'Ao ar livre', 'Todo sábado']}
         ctaText="Ver próxima edição"
         ctaHref="https://instagram.com/bravinowine"
         glyphLetter="D"
         flipLayout={true}
-        bgImage="https://pub-db8ed4fb33634589a6ce5fb07e85cb46.r2.dev/landing_pages/bravino/boamusica_evento_bravino.png"
+        bgImage="/bravino-vinhos-deck.webp"
       />
 
       <Mezanino />
+
+      {/* JAZZ SESSIONS */}
+      <ExperienceSection
+        id="jazz"
+        tag="Jazz Sessions"
+        tagSub="Noites Especiais"
+        heading="Quando o jazz encontra a BRAVINO, a noite muda de ritmo."
+        body="Música ao vivo, bons rótulos e uma atmosfera feita para ficar mais um pouco. O Jazz Sessions transforma a BRAVINO em palco para encontros, conversas e grandes músicos.&#10;&#10;Uma experiência para ouvir de perto, brindar entre acordes e aproveitar a noite sem pressa."
+        tags={['Jazz ao vivo', 'Bons rótulos', 'Lugares limitados', 'Edições especiais']}
+        ctaText="Ver próxima edição"
+        ctaHref="https://instagram.com/bravinowine"
+        glyphLetter="J"
+        flipLayout={false}
+        bgImage="https://pub-db8ed4fb33634589a6ce5fb07e85cb46.r2.dev/landing_pages/bravino/boamusica_evento_bravino.png"
+      />
+
       <Diferenciais />
       <Unidades />
       <FAQ />

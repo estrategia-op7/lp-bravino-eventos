@@ -15,17 +15,12 @@ const diferenciais = [
   {
     num: '02',
     title: 'Atendimento especializado',
-    body: 'Sommeliers prontos para guiar do básico ao premium, sem julgamentos e com genuíno prazer.',
+    body: 'Sommelier e consultores qualificados',
   },
   {
     num: '03',
-    title: 'Ambiente & estacionamento',
-    body: 'Climatizado, acolhedor e estacionamento gratuito nas duas unidades em Londrina.',
-  },
-  {
-    num: '04',
     title: 'E-commerce & entrega',
-    body: 'Frete grátis Londrina R$299 / Brasil R$499. Até 6x sem juros para todo o Brasil.',
+    body: 'Frete grátis acima de R$399 em Londrina.\nFrete grátis acima de R$999 para todo Brasil.',
   },
 ]
 
@@ -177,6 +172,7 @@ export default function Diferenciais() {
                   lineHeight: 1.75,
                   color: 'var(--card-text-sub, rgba(45,35,32,0.5))',
                   transition: 'color 0.3s ease',
+                  whiteSpace: 'pre-line',
                 }}
               >
                 {d.body}

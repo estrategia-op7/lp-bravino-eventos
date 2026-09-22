@@ -79,7 +79,7 @@ export default function Unidades() {
             opacity: 0,
           }}
         >
-          Duas unidades, a mesma paixão.
+          Duas unidades, a mesma essência.
         </h2>
 
         {/* Cards */}

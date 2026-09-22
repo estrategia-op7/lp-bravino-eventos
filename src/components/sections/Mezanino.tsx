@@ -14,16 +14,11 @@ const mezItems = [
   },
   {
     num: 'II.',
-    title: 'Cursos de vinho',
-    body: 'Do iniciante ao avançado',
-  },
-  {
-    num: 'III.',
     title: 'Jantares harmonizados',
     body: 'Menu autoral para potencializar cada rótulo',
   },
   {
-    num: 'IV.',
+    num: 'III.',
     title: 'Eventos privados',
     body: 'Corporativo ou celebração, proposta personalizada',
   },
@@ -142,7 +137,7 @@ export default function Mezanino() {
               }}
             >
               <a
-                href="https://wa.me/5543991231069"
+                href="https://wa.me/554391347721"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{
@@ -170,33 +165,6 @@ export default function Mezanino() {
                 }}
               >
                 Reservar o Mezanino
-              </a>
-              <a
-                href="https://wa.me/5543991231069"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  fontFamily: "'DM Sans', sans-serif",
-                  fontSize: '13px',
-                  fontWeight: 400,
-                  letterSpacing: '0.06em',
-                  color: 'rgba(250, 245, 238, 0.8)',
-                  textDecoration: 'none',
-                  padding: '12px 26px',
-                  border: '1px solid rgba(250, 245, 238, 0.25)',
-                  borderRadius: '100px',
-                  transition: 'all 0.3s ease',
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.color = '#FAF5EE'
-                  e.currentTarget.style.borderColor = 'rgba(250, 245, 238, 0.6)'
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.color = 'rgba(250, 245, 238, 0.8)'
-                  e.currentTarget.style.borderColor = 'rgba(250, 245, 238, 0.25)'
-                }}
-              >
-                Falar com especialista
               </a>
             </div>
           </div>

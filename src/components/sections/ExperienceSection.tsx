@@ -149,6 +149,7 @@ export function ExperienceSection({
           lineHeight: 1.85,
           color: 'rgba(45,35,32,0.62)',
           marginBottom: '28px',
+          whiteSpace: 'pre-line',
         }}
       >
         {body}

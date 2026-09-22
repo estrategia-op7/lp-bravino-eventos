@@ -52,7 +52,7 @@ export default function Nav() {
 
         {/* Desktop Links */}
         <div className="desktop-nav">
-          {['Wine Bar', 'Vinho no Deck', 'Mezanino'].map((item) => (
+          {['Wine Bar', 'Vinho no Deck', 'Mezanino', 'Jazz'].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase().replace(/\s/g, '-')}`}
@@ -65,7 +65,7 @@ export default function Nav() {
 
         {/* CTA Reservar */}
         <a
-          href="https://wa.me/5543991231069"
+          href="https://wa.me/554391347721"
           target="_blank"
           rel="noopener noreferrer"
           className="nav-cta"
@@ -91,7 +91,7 @@ export default function Nav() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="mobile-menu">
-          {['Wine Bar', 'Vinho no Deck', 'Mezanino'].map((item) => (
+          {['Wine Bar', 'Vinho no Deck', 'Mezanino', 'Jazz'].map((item) => (
             <a
               key={item}
               href={`#${item.toLowerCase().replace(/\s/g, '-')}`}
@@ -102,7 +102,7 @@ export default function Nav() {
             </a>
           ))}
           <a
-            href="https://wa.me/5543991231069"
+            href="https://wa.me/554391347721"
             className="mobile-menu-cta"
           >
             Reservar

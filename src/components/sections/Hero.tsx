@@ -75,23 +75,6 @@ export default function Hero() {
           width: '100%',
         }}
       >
-        {/* Eyebrow */}
-        <p
-          className="hero-anim"
-          style={{
-            fontFamily: "'DM Sans', sans-serif",
-            fontSize: '11px',
-            fontWeight: 500,
-            letterSpacing: '0.28em',
-            textTransform: 'uppercase',
-            color: '#C9A46B',
-            marginBottom: '32px',
-            opacity: 0,
-          }}
-        >
-          Londrina · Wine Concept
-        </p>
-
         {/* H1 */}
         <h1
           className="hero-anim"
@@ -168,34 +151,6 @@ export default function Hero() {
             }}
           >
             Explorar experiências
-          </a>
-
-          <a
-            href="#vinho-no-deck"
-            style={{
-              fontFamily: "'DM Sans', sans-serif",
-              fontSize: '14px',
-              fontWeight: 500,
-              letterSpacing: '0.05em',
-              color: '#C9A46B',
-              textDecoration: 'none',
-              padding: '14px 32px',
-              border: '1px solid #C9A46B',
-              borderRadius: '100px',
-              transition: 'all 0.35s ease',
-            }}
-            onMouseEnter={(e) => {
-              e.currentTarget.style.background = 'rgba(201, 164, 107, 0.08)'
-              e.currentTarget.style.borderColor = '#FFE2B7'
-              e.currentTarget.style.color = '#FFE2B7'
-            }}
-            onMouseLeave={(e) => {
-              e.currentTarget.style.background = 'transparent'
-              e.currentTarget.style.borderColor = '#C9A46B'
-              e.currentTarget.style.color = '#C9A46B'
-            }}
-          >
-            Ver programação
           </a>
         </div>
       </div>

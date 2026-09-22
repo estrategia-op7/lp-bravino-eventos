@@ -9,7 +9,6 @@ gsap.registerPlugin(ScrollTrigger)
 const metrics = [
   { value: '+500', label: 'Rótulos' },
   { value: '2',    label: 'Unidades' },
-  { value: '3',    label: 'Experiências' },
   { value: '4.7★', label: 'Google' },
 ]
 
